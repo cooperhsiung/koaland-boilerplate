@@ -1,0 +1,42 @@
+{
+  "name": "koaland-boilerplate",
+  "version": "1.0.0",
+  "description": "koaland's boilerplate ",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc && cp -r ./__gen_code ./dist/ ",
+    "prettier": "prettier * --ignore-path ./.prettierignore --write",
+    "start": "ts-node src/main.ts",
+    "test": "jest",
+    "test:coverage": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cooperhsiung/koaland-boilerplate.git"
+  },
+  "keywords": [
+    "koa",
+    "suit",
+    "boilerplate"
+  ],
+  "author": "Cooper Hsiung",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cooperhsiung/koaland-boilerplate/issues"
+  },
+  "homepage": "https://github.com/cooperhsiung/koaland-boilerplate#readme",
+  "dependencies": {
+    "koaland": "^1.2.0",
+    "mysql": "^2.18.1",
+    "typeorm": "^0.2.45"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.22",
+    "jest": "^26.6.3",
+    "prettier": "^2.0.5",
+    "reflect-metadata": "^0.1.13",
+    "ts-jest": "^26.5.4",
+    "ts-node": "^9.1.1",
+    "typescript": "^3.9.10"
+  }
+}

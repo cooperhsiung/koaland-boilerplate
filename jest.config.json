@@ -1,0 +1,12 @@
+{
+  "preset": "ts-jest",
+  "testEnvironment": "node",
+  "testRegex": "test\\/.+\\.(test|spec)\\.(ts|js)",
+  "testTimeout": 30000,
+  "modulePathIgnorePatterns": ["./dist", "./examples", "./coverage"],
+  "moduleFileExtensions": ["ts", "tsx", "js", "jsx", "json", "node"],
+  "coverageReporters": ["json", "json-summary", "lcov", "text", "clover", "text-summary"],
+  "collectCoverage": false,
+  "collectCoverageFrom": ["./src/**/*.ts", "!./**/__gen_code/**/*"],
+  "moduleDirectories": ["node_modules", "../../node_modules"]
+}

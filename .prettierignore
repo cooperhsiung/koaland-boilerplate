@@ -1,0 +1,11 @@
+coverage
+dist
+node_modules
+assets
+*.min.*
+*.png
+package-lock.json
+protos/
+__gen_code/
+client/
+static/
